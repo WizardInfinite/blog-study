@@ -127,7 +127,7 @@ export default {
   methods: {
     async onSubmit() {
       try {
-         const ret = await axios.post('http://localhost:1337/contacts',this.form)
+         const ret = await axios.post('http://:1337/contacts',this.form)
          window.alert('提交成功')
       } catch (error) {
          window.alert(error)
