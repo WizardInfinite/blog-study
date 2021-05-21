@@ -1,0 +1,17 @@
+{
+  "name": "blog-width-gridsome",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "@fortawesome/fontawesome-free": "5.13.0",
+    "@gridsome/source-strapi": "0.2.0",
+    "bootstrap": "4.5.0",
+    "gridsome": "^0.7.0"
+  }
+}
